@@ -54,11 +54,11 @@ function draw() {
   rect(400, height-50, 30, 50);
   rect(600, height-50, 20, 50);
   rect(650, height-100, 40, 150);
-  rect(900, height-70, 30, 70);
+  rect(1000, height-70, 30, 70);
   fill(66, 86, 244);
-  rect(1300, height-200, 50, 200);
+  rect(1400, height-200, 50, 200);
     text("Level 1", 100, 100);
-    text("Level 2", 1300, 100);
+    text("Level 2", 1400, 100);
   }else{
     background(203, 244, 1);
     fill(30, 30, 30)
