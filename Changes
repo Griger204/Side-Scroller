@@ -1,8 +1,18 @@
-# Changes made #
+# 10 Changes made #
 
 1. The shape of the person (from rect to ellipse)
 2. Changed the Size of Obstacles and person (smaller and bigger)
 3. Changed the colour(fill) of jumper (to 59, 237, 151)
-4. Added another obstacle (From 1 to 2 which are behind eachother)
+4. Added 3 other obstacle (From 1 to 4 which are behind eachother and different sizes)
 5. Both starting screen and ending screen (colour, size, and text)
 6. Modified the speed of which objects move, jump and accelerate (made person jump higher and faster)
+7. Main scene background (game background to orange)
+8. when you press '1', you'll be taken back to home screen (ability to start over)
+9.Added text on screen showing what level you are on (Level 1 and Level 2)
+10.Added a face to the person (Winston from Khan)
+11.Made function where when key 's' is pressed, scene would move away from the person (making it look like he is moving back)
+12.Made function where when key 'w' is pressed, schene would move towards the person again (making it look like he is moving forward)
+
+
+
+
