@@ -54,7 +54,7 @@ function draw() {
   rect(400, height-50, 30, 50);
   rect(600, height-50, 20, 50);
   rect(650, height-100, 40, 150);
-  rect(1100, height-70, 30, 70);
+  rect(1250, height-70, 30, 70);
   fill(66, 86, 244);
   rect(1400, height-200, 50, 200);
     text("Level 1", 100, 100);
