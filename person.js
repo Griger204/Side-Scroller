@@ -1,8 +1,9 @@
 function Person() {
   this.pos = createVector(0, 200);
   this.vel = createVector(1.5, 0);
-  this.acc = createVector(1.75, 0);
+  this.acc = createVector(1.7, 0);
   this.mass = 5;
+  this.jump=0;
   this.applyForce = function(force) {
   this.acc.add(force);
 }
@@ -21,6 +22,7 @@ function Person() {
     ellipse(this.pos.x+40, this.pos.y-20, 10, 10)
     ellipse(this.pos.x+20, this.pos.y-20, 10, 10)
     ellipse(this.pos.x+35, this. pos.y-2, 20, 20)
+    text("Jumps:"+this.jump, 450+this.pos.x, 50);
   }
 
   this.edges = function() {
