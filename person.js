@@ -1,7 +1,7 @@
 function Person() {
   this.pos = createVector(0, 200);
-  this.vel = createVector(1, 0);
-  this.acc = createVector(1, 0);
+  this.vel = createVector(1.5, 0);
+  this.acc = createVector(1.7, 0);
   this.mass = 5;
   this.applyForce = function(force) {
   this.acc.add(force);
