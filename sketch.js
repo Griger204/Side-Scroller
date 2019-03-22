@@ -10,6 +10,7 @@ function keyPressed(){
   if (key == ' '){
     var jump = createVector(0, -9.1);
     person.applyForce(jump);
+    person.jump++
   } else if (key=='q'){
     sceneNum++;
   }
@@ -57,7 +58,7 @@ function draw() {
   rect(1050, height-70, 30, 70);
   fill(66, 86, 244);
   rect(1300, height-200, 50, 200);
-    text("Level 1", 100, 100);
+    text("Level 1", 300, 100);
     text("Level 2", 1300, 100);
   }else{
     background(203, 244, 1);
